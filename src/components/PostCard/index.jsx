@@ -1,3 +1,5 @@
+import "./styles.css";
+
 export const PostCard = ({ title, id, body, cover }) => (
   <div className="post">
     <img src={cover} alt={title} />
